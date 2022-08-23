@@ -4,3 +4,7 @@ Stores contacts details into an XML file.
 
 Usage: 
 	dotnet run
+	
+Demo:
+
+![demo](demo.gif)
