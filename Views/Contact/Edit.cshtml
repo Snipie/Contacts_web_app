@@ -1,0 +1,38 @@
+@model Contacts.Models.Contact
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+</div>
+<div>
+    <form asp-controller="Contact" asp-action="Edit" method="post">
+        <div>
+		<input asp-for="ID" type="hidden" />
+	    <label>Name:</label>
+	    <input asp-for="Name" />
+        </div>
+        <div>
+            <label>Phone:</label>
+            <input asp-for="Phone" />
+        </div>
+        <div>
+            <label>Email:</label>
+            <input asp-for="Email" />
+        </div>
+        <div>
+            <label>WhatsApp account?</label>
+            <input asp-for="HasWhatsAppAccount" type="checkbox" />
+        </div>
+        <div>
+            <label>Telegram account?</label>
+            <input asp-for="HasTelegramAccount" type="checkbox" />
+        </div>
+        <div>
+            <label>Notes:</label>
+            <input asp-for="Notes" />
+        </div>
+        <input type="submit" value="Save" />
+    </form>
+</div>

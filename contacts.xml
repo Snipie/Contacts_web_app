@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfContact xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Contact>
+    <ID>1</ID>
+    <Name>Mr.Squirrel</Name>
+    <Phone>+0000000000</Phone>
+    <Email>Squirrel@corporate.fiction</Email>
+    <HasWhatsAppAccount>true</HasWhatsAppAccount>
+    <HasTelegramAccount>false</HasTelegramAccount>
+    <Notes>The CEO</Notes>
+  </Contact>
+  <Contact>
+    <ID>2</ID>
+    <Name>Mr.Rabbit</Name>
+    <Phone>+0000000001</Phone>
+    <Email>TheRabbit@corporate.fiction</Email>
+    <HasWhatsAppAccount>true</HasWhatsAppAccount>
+    <HasTelegramAccount>true</HasTelegramAccount>
+    <Notes>HR executive</Notes>
+  </Contact>
+  <Contact>
+    <ID>3</ID>
+    <Name>Mr.Camel</Name>
+    <Phone>+0000000002</Phone>
+    <Email>ToughCamel@corporate.fiction</Email>
+    <HasWhatsAppAccount>false</HasWhatsAppAccount>
+    <HasTelegramAccount>false</HasTelegramAccount>
+    <Notes>IT specialist</Notes>
+  </Contact>
+</ArrayOfContact>
